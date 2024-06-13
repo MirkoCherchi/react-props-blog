@@ -1,0 +1,75 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  padding: 20px;
+}
+
+.post-card {
+  background-color: #fff;
+  max-width: 550px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.post-card-image img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.post-card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.post-card-content h2 {
+  margin-top: 0;
+}
+.post-card-content p {
+  padding: 10px 0;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.post-card-content button {
+  background-color: #daa521;
+  border: none;
+  padding: 12px 20px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.post-card-content button:hover {
+  background-color: #e6b800;
+}
+
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 30px 200px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
