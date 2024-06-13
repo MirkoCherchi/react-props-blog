@@ -2,7 +2,7 @@ const Tags = ({ tags }) => {
   return (
     <div>
       {tags.map((tag, index) => (
-        <span key={index}>{tag} </span>
+        <span key={index}> #{tag} </span>
       ))}
     </div>
   );
