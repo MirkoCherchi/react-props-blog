@@ -23,17 +23,16 @@ body {
 
 .post-card {
   background-color: #fff;
-  max-width: 550px;
-  margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
+  width: calc((100% / 3) - 50px);
+  margin: 25px;
 }
 
 .post-card-image img {
   width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  height: 400px;
   object-fit: cover;
 }
 
@@ -68,8 +67,14 @@ body {
   background-color: #333333;
   color: #ffffff;
   padding: 30px 200px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  margin-top: 20px;
   text-align: center;
+}
+
+.flex-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
