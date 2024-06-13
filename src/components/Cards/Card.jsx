@@ -1,4 +1,4 @@
-import colosseoPost from "../../../public/img/colosseo.jpg";
+import colosseoPost from "../../assets/img/colosseo.jpg";
 
 const Card = () => {
   return (
