@@ -2,10 +2,10 @@ export const posts = [
   {
     id: 1,
     title: "Titolo del Post",
-    image: "",
+    image: "../src/assets/img/malHome.jpg",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-    tags: ["html", "css"],
+    tags: ["html", "css", "vuejs", "js", "php", "laravel"],
     published: true,
   },
   {
